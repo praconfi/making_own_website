@@ -135,8 +135,8 @@ p {
 }
 
 .navbar__item:hover{
-  background-color: var(--color-dark-pink);
-  border-color: var(--color-white);
+  background-color:rgb(59, 121, 86);
+  border-color: var(--color-grey)
 }
 
 .navbar__toggle-btn{
@@ -211,7 +211,7 @@ p {
 }
 .major__icon:hover i{
   color: cornflowerblue;
-  transform: rotate(-30deg) scale(1.1);
+  transform: rotate(-10deg) scale(1.1);
 }
 .major__icon i{
   transition: all var(--annimation-duration) ease;
@@ -446,7 +446,8 @@ color: var(--color-light-grey);
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark-grey);
+  padding: 35px;
 }
 
 .contact__title,
@@ -464,8 +465,8 @@ color: var(--color-light-grey);
   transition: all var(--annimation-duration) ease-in ;
 }
 .contact__links i:hover{
-  transform: scale(1.1);
-  color: var(--color-yellow);
+  transform: scale(1.2);
+  color: var(--color-white)
 }
 /* Scroll */
 .arrow-up{
@@ -473,7 +474,7 @@ color: var(--color-light-grey);
   bottom:50px;
   right: 50px;
   font-size: 50px;
-  background-color:red;
+  background-color:rgb(120, 164, 101);
   color: var(--color-white);
   border-radius: 50%;
   width: 70px;
